@@ -23,7 +23,6 @@ jobs:
           ssh -o StrictHostKeyChecking=no ubuntu@3.235.101.89 << 'EOF'
             cd cd uas-frontend/
             sudo git pull origin main
-            npm run dev -- --host 0.0.0.0
           EOF
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
