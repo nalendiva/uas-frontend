@@ -11,7 +11,7 @@ const Doctors = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     useEffect(() => {
-        fetch("http://localhost:6005/api/doctors")
+        fetch("http://54.83.112.249:6005/api/doctors")
             .then((res) => res.json())
             .then((data) => setDoctors(data))
             .catch((err) => console.error("Error fetching doctors:", err));

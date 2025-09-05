@@ -49,7 +49,7 @@ const SignUp = () => {
             if (formData.file) dataToSend.append("file", formData.file);
 
             const response = await axios.post(
-                "http://localhost:6005/api/patients/register",
+                "http://54.83.112.249:6005/api/patients/register",
                 dataToSend
                 // jangan set headers Content-Type manual
             );

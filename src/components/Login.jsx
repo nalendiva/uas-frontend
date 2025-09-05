@@ -20,7 +20,7 @@ const Login = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:6005/api/patients/login",
+        "http://54.83.112.249:6005/api/patients/login",
         {
           email: formData.email,
           password: formData.password,
