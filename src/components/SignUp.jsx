@@ -155,7 +155,6 @@ const SignUp = () => {
                         >
                             <option value="" disabled>Select Role</option>
                             <option value="user">User</option>
-                            <option value="admin">Admin</option>
                         </select>
                     </div>
 
