@@ -44,7 +44,7 @@ const ChatBot = () => {
 
     try {
       const res = await axios.post(
-        "http://54.167.49.210:8000/submit_query",
+        "http://54.83.112.249:8000/submit_query",
         { query_text: query },
         { headers: { "Content-Type": "application/json" } }
       );
