@@ -14,7 +14,7 @@ import { useLocation } from "react-router-dom";
 import LoginContext from "../context/LoginContext";
 import axios from "axios";
 
-const API_URL = "http://18.208.162.231:6005/api"; // sesuaikan backend URL
+const API_URL = "http://54.234.18.201:6005/api"; // sesuaikan backend URL
 
 const Appointments = () => {
   const { isLoggedIn } = useContext(LoginContext);
